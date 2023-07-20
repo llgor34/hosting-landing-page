@@ -1,0 +1,40 @@
+/* home */
+.home {
+  display: flex;
+}
+
+.home img {
+  max-width: 800px;
+}
+
+.home p {
+  font-size: 1.5rem;
+}
+
+.quote {
+  font-style: italic;
+  font-weight: bold;
+  font-family: Anuphan;
+  margin-top: 10px;
+  display: block;
+  font-size: 0.8em;
+}
+
+.btn-holders a {
+  color: inherit;
+  text-decoration: inherit;
+}
+
+@media (max-width: 1200px) {
+  .home {
+    flex-direction: column-reverse;
+  }
+
+  .home p {
+    font-size: 1rem;
+  }
+
+  .quote {
+    font-size: 0.9rem;
+  }
+}

@@ -1,0 +1,14 @@
+h1 {
+  text-align: center;
+}
+
+.contact-options {
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-options img {
+  margin-bottom: 10px;
+}

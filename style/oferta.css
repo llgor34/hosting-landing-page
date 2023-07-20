@@ -1,0 +1,84 @@
+.card {
+  background-color: #fff;
+  color: #000;
+  padding: 25px;
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 25px;
+  border-radius: 5px;
+}
+
+.container h1 {
+  padding: 25px 50px 0 50px;
+  text-align: center;
+}
+
+.card .btn-primary {
+  color: #fff;
+}
+
+.card > div {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card > div > img {
+  height: 20px;
+  width: 20px;
+}
+
+.card-title {
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.card-footer {
+  text-align: center;
+  font-size: 1.4rem;
+}
+
+.card-footer span {
+  font-weight: normal;
+  font-size: 1.2rem;
+}
+
+.card .not-active {
+  opacity: 0.5;
+}
+
+.cards-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  row-gap: 40px;
+}
+
+.aboutus-info {
+  background: linear-gradient(
+    90deg,
+    rgba(127, 81, 208, 1) 0%,
+    rgba(126, 116, 143, 1) 100%
+  );
+}
+
+.aboutus-info h2 {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.aboutus-content {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  row-gap: 20px;
+}
+
+.aboutus-content > div {
+  text-align: center;
+}
+
+.aboutus-content img {
+  height: 100px;
+  margin-bottom: 20px;
+}
